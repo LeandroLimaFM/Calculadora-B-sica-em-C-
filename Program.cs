@@ -60,19 +60,19 @@ namespace Calculadora_B_sica_em_C_
                 {
                     case 1:
                         Console.Clear();
-                        System.Console.WriteLine($"O resultado da soma de {n1} e {n2} é igual à {n1 + n2}\n");
+                        System.Console.WriteLine($"O resultado da soma de {n1} e {n2} é igual à {Counts.Plus(n1, n2)}\n");
                         break;
                     case 2:
                         Console.Clear();
-                        System.Console.WriteLine($"O resultado da subtração de {n1} e {n2} é igual à {n1 - n2}\n");
+                        System.Console.WriteLine($"O resultado da subtração de {n1} e {n2} é igual à {Counts.Minus(n1, n2)}\n");
                         break;
                     case 3:
                         Console.Clear();
-                        System.Console.WriteLine($"O resultado da multiplicação de {n1} e {n2} é igual à {n1 * n2}\n");
+                        System.Console.WriteLine($"O resultado da multiplicação de {n1} e {n2} é igual à {Counts.Times(n1, n2)}\n");
                         break;
                     case 4:
                         Console.Clear();
-                        System.Console.WriteLine($"O resultado da divisão de {n1} e {n2} é igual à {n1 / n2}\n");
+                        System.Console.WriteLine($"O resultado da divisão de {n1} e {n2} é igual à {Counts.Div(n1, n2)}\n");
                         break;
                 }
             }
