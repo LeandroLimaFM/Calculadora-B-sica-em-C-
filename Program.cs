@@ -7,30 +7,9 @@ namespace Calculadora_B_sica_em_C_
     {
         static void Main(string[] args)
         {
-            int time = 200;
             Console.Clear();
             int key = 0;
-            System.Console.Write("Olá");
-            System.Threading.Thread.Sleep(time);
-            System.Console.Write(" Seja");
-            System.Threading.Thread.Sleep(time);
-            System.Console.Write(" bem");
-            System.Threading.Thread.Sleep(time);
-            System.Console.Write("-vindo");
-            System.Threading.Thread.Sleep(time);
-            System.Console.Write(" a");
-            System.Threading.Thread.Sleep(time);
-            System.Console.Write(" minha");
-            System.Threading.Thread.Sleep(time);
-            System.Console.Write(" primeira");
-            System.Threading.Thread.Sleep(time);
-            System.Console.Write(" calculadora");
-            System.Threading.Thread.Sleep(time);
-            System.Console.Write(" básica");
-            System.Threading.Thread.Sleep(time);
-            System.Console.Write(" no");
-            System.Threading.Thread.Sleep(time);
-            System.Console.WriteLine(" GitHub!");
+            Writing.WriteManual("Olá, seja bem-vindo a minha primeira calculadora hospedada no GitHub!\n");
             while(key != 5){
             double n1,n2;
             try
