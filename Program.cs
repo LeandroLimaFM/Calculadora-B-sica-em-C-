@@ -11,24 +11,21 @@ namespace Calculadora_B_sica_em_C_
             int key = 0;
             Writing.WriteManual("Olá, seja bem-vindo a minha primeira calculadora hospedada no GitHub!\n");
             while(true){
-            double n1,n2;
+            double n1=0,n2=0;
             try
             {
                 Console.ForegroundColor = ConsoleColor.DarkMagenta;
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Writing.WriteManual("O que deseja fazer ?\n\n[1] Soma\n[2] Subtração\n[3] Multiplicação\n[4] Divisão\n[5] Sair do Programa\n\n");
                 Console.ForegroundColor = ConsoleColor.Magenta;
-                Writing.WriteManual("===>>>");
-                key = int.Parse(Console.ReadLine());
+                key = Writing.askUserInt("===>>>");
                 if(key == 5)
                     break;
                 Console.Clear();
                 
                 Console.ForegroundColor = ConsoleColor.Magenta;
-                Writing.WriteManual("Digite seu primeiro número: ");
-                n1 = double.Parse(Console.ReadLine());
-                Writing.WriteManual("Digite seu segundo número: ");
-                n2 = double.Parse(Console.ReadLine());
+                n1 = Writing.askUserDouble("Digite seu primeiro número: ");
+                n2 = Writing.askUserDouble("Digite seu segundo número: ");
                 Writing.WriteManual($"Seus números foram: {n1} e {n2}\n\n");
                 System.Threading.Thread.Sleep(3000);
                 Console.Clear();
