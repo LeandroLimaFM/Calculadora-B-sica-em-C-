@@ -10,7 +10,7 @@ namespace Calculadora_B_sica_em_C_
             for(int c = 0; c < digit; c++)
             {
                 System.Console.Write(frase[c]);
-                System.Threading.Thread.Sleep(100);
+                System.Threading.Thread.Sleep(34);
                 
             }
 
