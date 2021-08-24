@@ -1,6 +1,4 @@
 ﻿using System;
-
-
 namespace Calculadora_B_sica_em_C_
 {
     class Program

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leand\\Desktop\\Calculadora-B-sica-em-C-\\Calculadora-B-sica-em-C-.csproj",
+      "projectUniqueName": "C:\\Users\\leand\\Desktop\\Calculadora-B-sica-em-C-\\src\\Calculadora-B-sica-em-C-.csproj",
       "projectName": "Calculadora-B-sica-em-C-",
-      "projectPath": "C:\\Users\\leand\\Desktop\\Calculadora-B-sica-em-C-\\Calculadora-B-sica-em-C-.csproj",
+      "projectPath": "C:\\Users\\leand\\Desktop\\Calculadora-B-sica-em-C-\\src\\Calculadora-B-sica-em-C-.csproj",
       "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leand\\Desktop\\Calculadora-B-sica-em-C-\\obj\\",
+      "outputPath": "C:\\Users\\leand\\Desktop\\Calculadora-B-sica-em-C-\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config",
