@@ -1,8 +1,10 @@
-using System;
 
+//**    Classe Word serve pare escrever no console com uma impressão de digitação e facilitar a entrada de dados
+
+using System;
 namespace Calculadora_B_sica_em_C_
 {
-    class Writing
+    class Word
     {
         public static string WriteManual(string frase)
         {

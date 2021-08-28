@@ -1,3 +1,6 @@
+//**    Método para a execução dos cálculos matemáticos
+
+
 using System;
 namespace Calculadora_B_sica_em_C_
 {
